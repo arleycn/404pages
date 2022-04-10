@@ -8,7 +8,6 @@ body, html { background: #fafafa }
 span.fontRed { color: #cf0f32 }
 .index-btn { background: url(../images/index_btn_1e91c4a.png); width: 167px; height: 51px; display: block; position: absolute; right: 5px; top: 5px }
 .index-btn:hover { background: url(../images/index_btn-h_66aae16.png) }
-.btn-phone { background: url(../images/btn_phone_34f0bf1.png) center center no-repeat; display: none; position: relative; margin: 50px auto 0; min-width: 280px; width: 720px }
 .game { width: 554px; height: 608px; background: url(../images/game_a48f443.png); margin: auto; position: relative }
 .ready { width: 120px; height: 22px; background: url(../images/ready_b3fce9f.png); position: absolute; top: 368px; left: 213px }
 .yellow-wrap { position: absolute; top: 406px; left: 273px; z-index: 100; width: 29px; height: 29px }
