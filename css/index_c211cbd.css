@@ -3,16 +3,16 @@ body, html { background: #fafafa }
 #wrap { min-width: 250px; position: absolute }
 .content { position: relative; margin: 65px auto }
 .content .top { position: relative; margin: 30px auto 20px; width: 570px }
-.top_phone { position: relative; margin: 30px auto 20px; width: 554px; height: 105px; background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/sign_phone_10708ca.png); display: none }
+.top_phone { position: relative; margin: 30px auto 20px; width: 554px; height: 105px; background: url(../images/sign_phone_10708ca.png); display: none }
 .top .sign { color: #333; font-size: 20px; font-style: italic; font-weight: 700; line-height: 30px; width: 340px }
 span.fontRed { color: #cf0f32 }
-.index-btn { background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/index_btn_1e91c4a.png); width: 167px; height: 51px; display: block; position: absolute; right: 5px; top: 5px }
-.index-btn:hover { background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/index_btn-h_66aae16.png) }
-.btn-phone { background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/btn_phone_34f0bf1.png) center center no-repeat; display: none; position: relative; margin: 50px auto 0; min-width: 280px; width: 720px }
-.game { width: 554px; height: 608px; background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/game_a48f443.png); margin: auto; position: relative }
-.ready { width: 120px; height: 22px; background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/ready_b3fce9f.png); position: absolute; top: 368px; left: 213px }
+.index-btn { background: url(../images/index_btn_1e91c4a.png); width: 167px; height: 51px; display: block; position: absolute; right: 5px; top: 5px }
+.index-btn:hover { background: url(../images/index_btn-h_66aae16.png) }
+.btn-phone { background: url(../images/btn_phone_34f0bf1.png) center center no-repeat; display: none; position: relative; margin: 50px auto 0; min-width: 280px; width: 720px }
+.game { width: 554px; height: 608px; background: url(../images/game_a48f443.png); margin: auto; position: relative }
+.ready { width: 120px; height: 22px; background: url(../images/ready_b3fce9f.png); position: absolute; top: 368px; left: 213px }
 .yellow-wrap { position: absolute; top: 406px; left: 273px; z-index: 100; width: 29px; height: 29px }
-.openClose { width: 29px; height: 27px; background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/yellow_3c03cbd.png); animation: openClose 1s infinite steps(1, start); -moz-animation: openClose 1s infinite steps(1, start); -webkit-animation: openClose 1s infinite steps(1, start) }
+.openClose { width: 29px; height: 27px; background: url(../images/yellow_3c03cbd.png); animation: openClose 1s infinite steps(1, start); -moz-animation: openClose 1s infinite steps(1, start); -webkit-animation: openClose 1s infinite steps(1, start) }
 @keyframes openClose {
 0% {
 background-position:0 0
@@ -440,7 +440,7 @@ transform:translate(245px, -245px)
 }
 }
 .red-wrap { width: 26px; height: 19px; position: absolute; top: 330px; left: 355px; z-index: 99 }
-.red { width: 26px; height: 19px; background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/red_732547f.png) }
+.red { width: 26px; height: 19px; background: url(../images/red_732547f.png) }
 .redMoving { animation: redMoving 30s linear infinite both; -webkit-animation: redMoving 30s linear infinite both; -moz-animation: redMoving 30s linear infinite both }
 @keyframes redMoving {
 0% {
@@ -538,7 +538,7 @@ transform:translate(90px, -170px)
 -moz-transform:translate(90px, -170px)
 }
 }
-.blue { width: 27px; height: 19px; background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/blue_7f59112.png); position: absolute; top: 230px; left: 263px; animation: blueMoving 15s linear infinite both; -webkit-animation: blueMoving 15s linear infinite both; -moz-animation: blueMoving 15s linear infinite both }
+.blue { width: 27px; height: 19px; background: url(../images/blue_7f59112.png); position: absolute; top: 230px; left: 263px; animation: blueMoving 15s linear infinite both; -webkit-animation: blueMoving 15s linear infinite both; -moz-animation: blueMoving 15s linear infinite both }
 @keyframes blueMoving {
 0% {
 transform:translate(0, 0)
@@ -626,7 +626,7 @@ transform:translate(0, 13px)
 -moz-transform:translate(0, 13px)
 }
 }
-.purple { width: 26px; height: 19px; background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/purple_c9e407f.png); position: absolute; top: 290px; left: 263px; animation: purpleMoving 15s linear infinite both; -webkit-animation: purpleMoving 15s linear infinite both; -moz-animation: purpleMoving 15s linear infinite both }
+.purple { width: 26px; height: 19px; background: url(../images/purple_c9e407f.png); position: absolute; top: 290px; left: 263px; animation: purpleMoving 15s linear infinite both; -webkit-animation: purpleMoving 15s linear infinite both; -moz-animation: purpleMoving 15s linear infinite both }
 @keyframes purpleMoving {
 0% {
 transform:translate(0, 0)
@@ -705,7 +705,7 @@ transform:translate(0, -32px)
 -moz-transform:translate(0, -32px)
 }
 }
-.oranger { width: 26px; height: 19px; background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/oranger_f726694.png); position: absolute; top: 305px; left: 263px; z-index: 100; animation: orangerMoving 15s linear infinite both; -webkit-animation: orangerMoving 15s linear infinite both; -moz-animation: orangerMoving 15s linear infinite both }
+.oranger { width: 26px; height: 19px; background: url(../images/oranger_f726694.png); position: absolute; top: 305px; left: 263px; z-index: 100; animation: orangerMoving 15s linear infinite both; -webkit-animation: orangerMoving 15s linear infinite both; -moz-animation: orangerMoving 15s linear infinite both }
 @keyframes orangerMoving {
 0% {
 transform:translate(0, 0)
@@ -785,8 +785,8 @@ transform:translate(0, -24px)
 }
 }
 .eye1, .eye2, .eye3, .eye4, .eye5, .eye6, .eye7, .eye8 { width: 5px; height: 5px; position: absolute }
-.eye1, .eye2, .eye5, .eye6, .eye7, .eye8 { background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/eyes_7786b10.png) }
-.eye3, .eye4 { background: url(https://cdn.jsdelivr.net/gh/arleycn/404pages@master/images/eyes2_67d931c.png) }
+.eye1, .eye2, .eye5, .eye6, .eye7, .eye8 { background: url(../images/eyes_7786b10.png) }
+.eye3, .eye4 { background: url(../images/eyes2_67d931c.png) }
 .eye1 { top: 7px; left: 3px }
 .eye2 { top: 7px; left: 15px }
 .eye3 { top: 3px; left: 5px }
